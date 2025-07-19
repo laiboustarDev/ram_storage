@@ -1,367 +1,872 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="describe" content="defference between ram rom storage " />
-    <title>Ram storage</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Différence entre mémoire RAM et stockage dans un ordinateur - Guide détaillé">
+    <meta name="keywords" content="RAM, mémoire, stockage, ordinateur, différence, guide">
+    <meta name="author" content="Boumaza Laid">
+    <title>Mémoire vs Stockage - Guide Complet</title>
     
-      .leftside,
-      .rightside {
-        height: 100%;
-        width: 100%;
-        border-style:outset;
-        border-width: 3px;
-        border-radius: 5px;
-        padding: 3px;
-        border-color:gold ;
-        background: rgb(115, 179, 115);
-        /*border-bottom-style: dotted;
-        border-left-style:double ;
-        border-left-width:10px ;
-        border-left-color:sienna ;*/
-      }
-      
-    </style>
-  </head>
-  <body style="background-color: rgb(238, 222, 131);">
-    <br>
-    <p align="center" style="color:chocolate;background-color: gold;">This page is created by Boumaza laid 2025</p>
-    <div class="row no-gutters">
-      <div  class="col no-gutters">
-        <div class="leftside">
-            <br><br>
-            <h3 style="color:rgb(14, 61, 2);">The difference between memory and storage in a computer with details</h3>
-            
-            <p align="center" style="color:rgb(99, 65, 2)">
-                <br>
-                
-                
-               <i> The terms <mark>memory</mark> and <mark>storage</mark> are often used interchangeably when talking about computers, but they refer to two very different components that serve distinct purposes. Here's a detailed breakdown of the differences between memory and storage:
-</i>
-<br><br>
-
- <p align="center" style="color:rgb(99, 65, 2)"><strong>1. Definition</strong></p>
-<br>
-<u style="color:rgba(173, 69, 51, 0.849)"><b>✅ Memory (RAM – Random Access Memory):</b ></u>
-<ul>
-<li> Memory, specifically RAM, is the computer’s short-term data workspace.</li>
-<li> It temporarily stores data that the CPU needs quick access to while performing tasks.</li>
-<li> When you open applications or files, they are loaded into RAM for fast access.</li>
-</ul>
-<br>
-
-<u style="color:rgba(173, 69, 51, 0.849)"><b> ✅ Storage:</b ></u>
-<ul>
-<li>refers to the hardware devices used to retain data permanently, even when the computer is turned off.</li> 
-<li> This includes hard disk drives (HDDs), solid-state drives (SSDs), and other long-term memory like USB flash drives or cloud storage.</li>
-</ul>
-<br><br>
-
-<p align="center" style="color:rgb(99, 65, 2)"><strong>2. Purpose / Function</strong></p>
-<table style="color: rgb(88, 51, 2);" border="2" >
-  <thead align="center" bgcolor="orange">
-  <tr><td>Component</td><td>Purpose</td></tr>
-  </thead>
-  <tbody style="background-color:gold ;" align="center" >
-  <tr><td>Memory(RAM)</td><td width="100%">Holds data that the CPU is actively using right now. Allows quick read/write operations for smooth multitasking.</td></tr>
-  <tr><td>Storage</td><td>Stores operating system, installed programs, and user files permanently. Slower than RAM, but much larger in capacity.</td></tr>
-  </tbody>
-</table>
-
-<br>
-
-<p align="center" style="color:rgb(99, 65, 2)"><strong>3. Volatility</strong></p>
-<table style="color: rgb(88, 51, 2);" border="2" >
-  <thead align="center" bgcolor="orange" >
-    <tr><td>Component</td><td>Volatility</td></tr>
-  </thead>
-  <tbody style="background-color:gold ;" align="center" >
-    <tr><td>Memory(RAM)</td><td width="100%">Volatile: Data is lost when power is turned off.</td></tr>
-    <tr><td>Storage</td><td>Non-volatile: Data remains even after power is off.</td></tr>
-  </tbody>
-</table>
-
-<br>
-
-<p align="center" style="color:rgb(99, 65, 2)"><strong>4. Speed</strong></p>
-<table style="color: rgb(88, 51, 2);" border="2" >
-  <thead align="center" bgcolor="orange" >
-    <tr><td>Component</td><td>Speed</td></tr>
-  </thead>
-  <tbody style="background-color:gold ;" align="center" >
-    <tr><td>Memory(RAM)</td><td width="100%">Very fast — measured in nanoseconds (ns). Essential for real-time processing.</td></tr>
-    <tr><td>Storage</td><td>Slower compared to RAM — SSDs are faster than HDDs but still significantly slower than RAM.</td></tr>
-  </tbody>
-</table>
-
-<br>
-<p align="center" style="color:rgb(99, 65, 2)"><strong>5. Capacity</strong></p>
-<table style="color: rgb(88, 51, 2);" border="2" >
-  <thead align="center" bgcolor="orange" >
-    <tr><td>Component</td><td>Typical Capacity</td></tr>
-  </thead>
-  <tbody style="background-color:gold ;" align="center" >
-    <tr><td>Memory(RAM)</td><td width="100%">Usually ranges from 4GB to 64GB+ on consumer systems.</td></tr>
-    <tr><td>Storage</td><td>Ranges from 128GB to multiple terabytes (TB) depending on the device.</td></tr>
-  </tbody>
-</table>
-
-<br>
-<p align="center" style="color:rgb(99, 65, 2)"><strong>6. Types</strong></p>
-<u style="color:rgba(173, 69, 51, 0.849)"><b> ✅ Memory (RAM):</b ></u>
-<ul>
-<li>DRAM (Dynamic RAM): Most common type; needs constant refreshing.</li>
-<li>SRAM (Static RAM): Faster, more expensive, used in cache memory.</li>
-<li>Synchronous Dynamic RAM (SDRAM)</li>
-<li>Double Data Rate SDRAM (DDR SDRAM) – versions include DDR3, DDR4, DDR5</li>
-</ul>
-
-<u style="color:rgba(173, 69, 51, 0.849)"><b> ✅ Storage:</b ></u>
-<ul>
-<li>Hard Disk Drive (HDD): Uses spinning disks and magnetic storage.</li>
-<li>Solid-State Drive (SSD): Uses flash memory; faster, more reliable.</li>
-<li>NVMe SSD: High-speed SSD connected via PCIe interface.</li>
-<li>Optical Storage (CD/DVD/Blu-ray)</li>
-<li>Cloud Storage: Online storage accessed over the internet.</li>
-</ul>
-<br><br>
-<p align="center" style="color:rgb(99, 65, 2)"><strong>7. Location & Physical Form</strong></p>
-<table style="color: rgb(88, 51, 2);" border="2" >
-  <thead align="center" bgcolor="orange" >
-    <tr><td>Component</td><td>Location/Form</td></tr>
-  </thead>
-  <tbody style="background-color:gold ;" align="center" >
-    <tr><td>Memory(RAM)</td><td width="100%">Installed directly on the motherboard in DIMM slots (desktops/laptops).</td></tr>
-    <tr><td>Storage</td><td>Connected via SATA, M.2, or PCIe interfaces; can be internal or external.</td></tr>
-  </tbody>
-</table>
-
-<p align="center" style="color:rgb(99, 65, 2)"><strong>8. Impact on Performance</strong></p>
-<table align="center" style="color: rgb(88, 51, 2);" border="2" >
-  <thead align="center" bgcolor="orange" >
-    <tr><td>Component</td><td>Effect on System Performance</td></tr>
-  </thead>
-  <tbody style="background-color:gold ;" align="center" >
-    <tr><td>Memory(RAM)</td><td width="100%">More RAM allows smoother multitasking and better performance with large applications (e.g., video editing, gaming).</td></tr>
-    <tr><td>Storage</td><td>Faster storage (like SSDs) improves boot times, application load times, and file transfers.</td></tr>
-  </tbody>
-</table>
-
-<br>
-
-<p align="center" style="color:rgb(99, 65, 2)"><strong>9. Example Scenario</strong></p>
-<h6>Let’s say you’re working on a document in Microsoft Word:</h6><br>
-<ol>
-<li>The document is stored on your hard drive (storage).</li>
-<li>When you open it, the document is loaded into RAM (memory) so the CPU can quickly process changes.</li>
-<li>When you save it, the updated version is written back to storage.</li>
-</ol>
-<br>
-<p align="center" style="color:rgb(99, 65, 2)"><strong>Summary Table</strong></p>
-<table align="center" style="color: rgb(88, 51, 2);" border="2" >
-  <thead align="center" bgcolor="orange" >
-    <tr><td>Feature</td><td>Memory (RAM)</td><td>Storage</td></tr>
-  </thead>
-  <tbody style="background-color:gold ;" align="center" >
-    <tr><td>Type</td><td>Temporary</td><td>Permanent</td></tr>
-    <tr><td>Volatility</td><td>Volatile</td><td>Non-volatile</td></tr>
-    <tr><td>Speed</td><td>Fast</td><td>Slower</td></tr>
-    <tr><td>Capacity</td><td>Smaller (GBs)</td><td>Larger (GBs–TBs)</td></tr>
-    <tr><td>Cost</td><td>More expensive per GB</td><td>Cheaper per GB</td></tr>
-    <tr><td>Purpose</td><td>Running apps and processes</td><td>Storing OS, apps, files</td></tr>
-    <tr><td>Examples</td><td>DDR4 RAM</td><td>HDD, SSD, NVMe</td></tr>
-  </tbody>
-</table>
-
-
-</b>
-<br>
-<b>🔹 Conclusion</b>
-<br>
-<i>
-- **Memory (RAM)** is like your **desk space** — where you keep things you're currently working on.<br>
-- **Storage** is like your **filing cabinet** — where all your files are kept safely even when not in use.<br>
-
-Understanding this distinction helps in making informed decisions when upgrading or purchasing a computer.<br>
-<br>
-</i>
-            </p>
+    <!-- CSS personnalisé -->
+    <link rel="stylesheet" href="mstorage.css">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-9ndCyUa/+9RkujQsLjFhbQDVJ9atCyFOImRD0PtlJg6wFJg5c2OPJv2a7WBp5Qo" crossorigin="anonymous">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="author-info">
+                        <i class="fas fa-code"></i>
+                        <span>Cette page est créée par Boumaza Laid et développée avec HTML/CSS</span>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col no-gutters">
-        <div class="rightside">
-            <br><br>
-                <br>
-            <h3 align="right" dir="rtl" style="color:rgb(14, 61, 2);">الفرق بين الذاكرة والتخزين في الحاسوب</h3>
-            <p align="center" style="color:rgb(99, 65, 2)" dir="rtl" >
-<br><br>
-<b>
- الفرق بين <mark>الذاكرة </mark> و<mark>التخزين</mark> في الحاسوب
+    </header>
 
-غالبًا ما تُستخدم مصطلحات "الذاكرة و"التخزين" بشكل متبادل عند الحديث عن أجهزة الكمبيوتر، لكنها تشير إلى مكونين مختلفين تمامًا ويؤديان وظائف منفصلة. إليك شرح مفصل للفرق بينهما:
-</i>
-<br><br>
-<p align="center" dir="rtl" style="color:rgb(99, 65, 2)"><strong>1. التعريف</strong></p>
-<p style="color:rgba(173, 69, 51, 0.849)" align="right" dir="rtl"><u ><b>✅ الذاكرة (RAM – ذاكرة الوصول العشوائي):</b ></u></p>
-
-<ul align="right" dir="rtl">
-<li> **الذاكرة** وخاصةً **RAM** هي "مساحة عمل مؤقتة" لجهاز الكمبيوتر.</li>
-<li>  تُخزن البيانات التي يحتاج المعالج (CPU) إلى الوصول إليها بسرعة أثناء تنفيذ المهام.</li>
-<li> عندما تفتح برامج أو ملفات، يتم تحميلها إلى الذاكرة (RAM) للوصول السريع.</li>
-</ul>
-<br>
-<p style="color:rgba(173, 69, 51, 0.849)" align="right" dir="rtl"><u><b> ✅ التخزين:</b ></u></p>
-<ul align="right" dir="rtl">
-<li> يشير **التخزين** إلى الأجهزة المادية المستخدمة لـ **حفظ البيانات على المدى الطويل**، حتى بعد إيقاف تشغيل الحاسوب.</li> 
-<li> يشمل ذلك الأقراص الصلبة (HDD)، وأقراص SSD، وأجهزة الفلاش USB، والتخزين السحابي.</li>
-</ul>
-<br><br>
-
-<p align="center" dir="rtl" style="color:rgb(99, 65, 2)"><strong>2.الوظيفة</strong></p>
-<table style="color: rgb(88, 51, 2);" border="2" align="right" dir="rtl">
-  <thead align="center" bgcolor="orange">
-    <tr><td>الوظيفة</td><td align="center">المكون</td></tr>
-</thead>
-<tbody style="background-color:gold ;" align="center" >
-  <tr><td>الذاكرة(RAM)</td><td>تحتفظ بالبيانات التي يستخدمها المعالج حاليًا. تسمح بعمليات قراءة/كتابة سريعة لتسهيل المهام المتعددة بسلاسة.</td></tr>
-  <tr><td>التخزين </td><td>يخزن نظام التشغيل والبرامج المثبتة والملفات الخاصة للمستخدم بشكل دائم. أبطأ من RAM، لكنه أكبر في السعة.</td></tr>
-</tbody>
-</table>
-<br><br>
-
-  <p align="center" dir="rtl" style="color:rgb(99, 65, 2)"><strong>3. القابلية للفقدان (Volatility)</strong></p>
-
-<br>
-
-<table style="width: 100%; color: rgb(88, 51, 2);" border="2" align="right" dir="rtl">
-  <thead align="center"  bgcolor="orange">
-    <tr><td> المكون</td><td>القابلية للفقدان</td></tr>
-</thead>
-<tbody style="background-color:gold ;" align="center" >
-  <tr><td>الذاكرة (RAM)</td><td>قابلة للفقدان
-: تُفقد البيانات عند إيقاف تشغيل الجهاز</td></tr>
-  <tr><td>التخزين</td><td>غير قابل للفقدان
-: تبقى البيانات حتى بعد إيقاف الجهاز</td></tr>
-</tbody>
-</table>
-</br></br>
-<p align="center" dir="rtl" style="color:rgb(99, 65, 2)"><strong>4. السرعة</strong></p>
-</br>
-<table style="width: 100%; color: rgb(88, 51, 2);" border="2" align="right" dir="rtl">
-  <thead align="center"  bgcolor="orange">
-    <tr><td>المكون</td><td>السرعة</td></tr>
-  </thead>
-  <tbody style="background-color:gold ;" align="center" >
-    <tr><td>الذاكرة (RAM)</td><td width="100%"> سريعة جدًا — تقاس بالنانوثواني (ns). ضرورية للمعالجة الفورية.</td></tr>
-    <tr><td>التخزين</td><td> أبطأ من الذاكرة — أقراص SSD أسرع من HDD، ولكن لا تزال أبطأ بكثير من RAM.</td></tr>
-  </tbody>
-</table>
-
-
-<p align="center" dir="rtl" style="color:rgb(99, 65, 2)"><strong>5. السعة</strong></p>
-</br>
-<table style="width: 100%; color: rgb(88, 51, 2);" border="2" align="right" dir="rtl">
-  <thead align="center"  bgcolor="orange">
-    <tr><td>المكون</td><td>السعة النموذجية</td></tr>
-  </thead>
-  <tbody style="background-color:gold ;" align="center" >
-    <tr><td>الذاكرة(RAM)</td><td width="100%"> تتراوح عادةً من **4 غيغابايت إلى 64 غيغابايت أو أكثر** في الأنظمة الاستهلاكية.</td></tr>
-    <tr><td>التخزين</td><td> تتراوح من **128 غيغابايت إلى عدة تيرابايتات (TB)** حسب الجهاز.</td></tr>
-  </tbody>
-</table>
-
-<p align="center" dir="rtl" style="color:rgb(99, 65, 2)"><strong>6. الأنواع</strong></p>
-<p align="right" dir="rtl" style="color:rgba(173, 69, 51, 0.849)"><u ><b> ✅ الذاكرة (RAM):</b ></u></p>
-<ul align="right" dir="rtl">
-<li> DRAM (ذاكرة الوصول العشوائي الديناميكية): النوع الأكثر شيوعًا؛ تحتاج إلى تحديث مستمر.</li>
-<li> SRAM (ذاكرة الوصول العشوائي الثابتة): أسرع، أغلى ثمنًا، وتُستخدم في الذاكرة المؤقتة (Cache).</li>
-<li> SDRAM (ذاكرة SDRAM المتزامنة)</li>
-<li> DDR SDRAM (ذاكرة DDR SDRAM)** – الإصدارات تشمل DDR3 و DDR4 و DDR5</li>
-</ul>
-
-<p align="right" dir="rtl" style="color:rgba(173, 69, 51, 0.849)"><u ><b> ✅ التخزين:</b ></u></p>
-<ul align="right" dir="rtl">
-<li> القرص الصلب (HDD): يستخدم أقراص دوارة والتخزين المغناطيسي.</li>
-<li> القرص الصلب ذو الحالة الثابتة (SSD): يستخدم ذاكرة فلاشية؛ أسرع وأكثر موثوقية.</li>
-<li> NVMe SSD: SSD عالي السرعة متصل عبر واجهة PCIe.</li>
-<li> التخزين الضوئي (CD/DVD/Blu-ray)</li>
-<li>التخزين السحابي: تخزين عبر الإنترنت.</li>
-</ul>
-
-<p align="center" dir="rtl" style="color:rgb(99, 65, 2)"><strong>7. الموقع والشكل المادي</strong></p>
-<table style="width: 100%; color: rgb(88, 51, 2);" border="2" align="right" dir="rtl">
-  <thead align="center"  bgcolor="orange">
-    <tr><td>المكون</td><td>السعة النموذجية</td></tr>
-  </thead>
-  <tbody style="background-color:gold ;" align="center" >
-    <tr><td>الذاكرة (RAM)</td><td width="100%"> مثبتة مباشرة على اللوحة الأم في فتحات DIMM (في أجهزة سطح المكتب والحواسيب المحمولة).</td></tr>
-    <tr><td>التخزين</td><td> متصلة عبر واجهات SATA أو M.2 أو PCIe؛ ويمكن أن تكون داخلية أو خارجية.</td></tr>
-  </tbody>
-</table>
-
-<p align="center" dir="rtl" style="color:rgb(99, 65, 2)"><strong>8. تأثيرها على الأداء</strong></p>
-<table style="width: 100%; color: rgb(88, 51, 2);" border="2" align="right" dir="rtl">
-  <thead align="center"  bgcolor="orange">
-    <tr><td>المكون</td><td> تأثيره على أداء النظام</td></tr>
-  </thead>
-  <tbody style="background-color:gold ;" align="center" >
-    <tr><td>الذاكرة (RAM)</td><td width="100%"> كلما زادت الذاكرة، زادت سلاسة العمل متعدد المهام والأداء مع البرامج الكبيرة (مثل مونتاج الفيديو والألعاب).</td></tr>
-    <tr><td>التخزين</td><td> التخزين الأسرع (مثل SSD) يحسن وقت التشغيل، وتحميل التطبيقات، ونقل الملفات.</td></tr>
-  </tbody>
-</table>
-<br><br>
-<h6  align="center" dir="rtl" style="color:rgb(99, 65, 2)"><br><strong>9. مثال عملي</strong></h6>
-<br>
-<h6 align="right" dir="rtl">لنفترض أنك تعمل على مستند في برنامج Microsoft Word:</h6><br>
-<ol align="right" dir="rtl">
-<li> يتم حفظ المستند على القرص الصلب (التخزين).</li>
-<li> عند فتحه، يتم تحميل المستند إلى الذاكرة (RAM) بحيث يمكن للمعالج التعامل مع التعديلات بسرعة.</li>
-<li>عند حفظه، يتم كتابة النسخة المحدثة مرة أخرى إلى التخزين.</li>
-</ol>
-<br><br>
-<p align="center" dir="rtl" style="color:rgb(99, 65, 2)"><strong>جدول ملخص</strong></p>
-<table style="width: 100%; color: rgb(88, 51, 2);" border="2" align="right" dir="rtl">
-  <thead align="center"  bgcolor="orange">
-    <tr><td>الميزة</td><td> الذاكرة (RAM)</td> <td>التخزين</td></tr>
-  </thead>
-  <tbody style="background-color:gold ;" align="center" >
-    <tr><td> النوع</td><td>مؤقت</td><td>دائم</td></tr>
-    <tr><td> القابلية للفقدان</td><td>نعم</td><td>لا</td></tr>
-    <tr><td> السرعة</td><td>عالية</td><td>منخفضة نسبيًا</td></tr>
-    <tr><td> السعة</td><td>أقل (بالغيغابايت)</td><td>أعلى (من الغيغابايت إلى التيرابايت)</td></tr>
-    <tr><td> التكلفة</td><td>أعلى لكل غيغابايت</td><td>أقل لكل غيغابايت</td></tr>
-    <tr><td> الاستخدام</td><td>تشغيل البرامج والمهام</td><td>تخزين نظام التشغيل والتطبيقات والملفات</td></tr>
-    <tr><td> أمثلة</td><td>ذاكرة DDR4</td><td>HDD، SSD، NVMe</td></tr>
-  </tbody>
-</table>
-
-<br><br>
-<p align="right" dir="rtl"><b>🔹 الخلاصة</b></p>
-<br>
-<p align="right" dir="rtl"><i>
-
-- **الذاكرة (RAM)** تشبه **مكتب العمل** — حيث تضع الأشياء التي تعمل عليها حاليًا.
-- **التخزين** يشبه **خزائن الملفات** — حيث تُخزن جميع الملفات بأمان حتى عند عدم استخدامها.
-
-فهم هذه الاختلافات يساعدك على اتخاذ قرارات أفضل عند ترقية جهازك أو شراء حاسوب جديد.
-
-<br>
-</i></p>
-
-            </p>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-microchip"></i> Mémoire vs Stockage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#english-section"><i class="fas fa-flag-usa"></i> English</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#arabic-section"><i class="fas fa-flag"></i> العربية</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-    <footer>
-                <p align="center" style="color:red;">Boumaza Laid|Univ Relizane©2025-2026</p>
-         </footer>
-  </body>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container-fluid">
+            <div class="row g-4">
+                <!-- Section Anglaise -->
+                <div class="col-lg-6" id="english-section">
+                    <div class="content-card">
+                        <div class="card-header">
+                            <h1 class="section-title">
+                                <i class="fas fa-memory"></i>
+                                The Difference Between Memory and Storage in a Computer
+                            </h1>
+                        </div>
+                        
+                        <div class="card-body">
+                            <div class="intro-section">
+                                <p class="intro-text">
+                                    <i class="fas fa-info-circle"></i>
+                                    The terms <mark>memory</mark> and <mark>storage</mark> are often used interchangeably when talking about computers, but they refer to two very different components that serve distinct purposes. Here's a detailed breakdown of the differences between memory and storage:
+                                </p>
+                            </div>
+
+                            <!-- Section 1: Définition -->
+                            <section class="content-section">
+                                <h2 class="section-heading">
+                                    <span class="section-number">1</span>
+                                    Definition
+                                </h2>
+                                
+                                <div class="definition-block">
+                                    <h3 class="subsection-title">
+                                        <i class="fas fa-check-circle text-success"></i>
+                                        Memory (RAM – Random Access Memory)
+                                    </h3>
+                                    <ul class="feature-list">
+                                        <li>Memory, specifically RAM, is the computer's short-term data workspace.</li>
+                                        <li>It temporarily stores data that the CPU needs quick access to while performing tasks.</li>
+                                        <li>When you open applications or files, they are loaded into RAM for fast access.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="definition-block">
+                                    <h3 class="subsection-title">
+                                        <i class="fas fa-check-circle text-success"></i>
+                                        Storage
+                                    </h3>
+                                    <ul class="feature-list">
+                                        <li>Refers to the hardware devices used to retain data permanently, even when the computer is turned off.</li>
+                                        <li>This includes hard disk drives (HDDs), solid-state drives (SSDs), and other long-term memory like USB flash drives or cloud storage.</li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <!-- Section 2: Purpose/Function -->
+                            <section class="content-section">
+                                <h2 class="section-heading">
+                                    <span class="section-number">2</span>
+                                    Purpose / Function
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover comparison-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-cog"></i> Component</th>
+                                                <th><i class="fas fa-bullseye"></i> Purpose</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Memory (RAM)</strong></td>
+                                                <td>Holds data that the CPU is actively using right now. Allows quick read/write operations for smooth multitasking.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Storage</strong></td>
+                                                <td>Stores operating system, installed programs, and user files permanently. Slower than RAM, but much larger in capacity.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Section 3: Volatility -->
+                            <section class="content-section">
+                                <h2 class="section-heading">
+                                    <span class="section-number">3</span>
+                                    Volatility
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover comparison-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-cog"></i> Component</th>
+                                                <th><i class="fas fa-bolt"></i> Volatility</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Memory (RAM)</strong></td>
+                                                <td><span class="badge bg-danger">Volatile:</span> Data is lost when power is turned off.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Storage</strong></td>
+                                                <td><span class="badge bg-success">Non-volatile:</span> Data remains even after power is off.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Section 4: Speed -->
+                            <section class="content-section">
+                                <h2 class="section-heading">
+                                    <span class="section-number">4</span>
+                                    Speed
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover comparison-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-cog"></i> Component</th>
+                                                <th><i class="fas fa-tachometer-alt"></i> Speed</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Memory (RAM)</strong></td>
+                                                <td><span class="badge bg-success">Very fast</span> — measured in nanoseconds (ns). Essential for real-time processing.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Storage</strong></td>
+                                                <td><span class="badge bg-warning">Slower</span> compared to RAM — SSDs are faster than HDDs but still significantly slower than RAM.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Section 5: Capacity -->
+                            <section class="content-section">
+                                <h2 class="section-heading">
+                                    <span class="section-number">5</span>
+                                    Capacity
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover comparison-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-cog"></i> Component</th>
+                                                <th><i class="fas fa-database"></i> Typical Capacity</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Memory (RAM)</strong></td>
+                                                <td>Usually ranges from 4GB to 64GB+ on consumer systems.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Storage</strong></td>
+                                                <td>Ranges from 128GB to multiple terabytes (TB) depending on the device.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Section 6: Types -->
+                            <section class="content-section">
+                                <h2 class="section-heading">
+                                    <span class="section-number">6</span>
+                                    Types
+                                </h2>
+                                
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="type-card">
+                                            <h3 class="subsection-title">
+                                                <i class="fas fa-check-circle text-success"></i>
+                                                Memory (RAM)
+                                            </h3>
+                                            <ul class="feature-list">
+                                                <li><strong>DRAM:</strong> Most common type; needs constant refreshing.</li>
+                                                <li><strong>SRAM:</strong> Faster, more expensive, used in cache memory.</li>
+                                                <li><strong>SDRAM:</strong> Synchronous Dynamic RAM</li>
+                                                <li><strong>DDR SDRAM:</strong> Versions include DDR3, DDR4, DDR5</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="type-card">
+                                            <h3 class="subsection-title">
+                                                <i class="fas fa-check-circle text-success"></i>
+                                                Storage
+                                            </h3>
+                                            <ul class="feature-list">
+                                                <li><strong>HDD:</strong> Uses spinning disks and magnetic storage.</li>
+                                                <li><strong>SSD:</strong> Uses flash memory; faster, more reliable.</li>
+                                                <li><strong>NVMe SSD:</strong> High-speed SSD connected via PCIe interface.</li>
+                                                <li><strong>Optical Storage:</strong> CD/DVD/Blu-ray</li>
+                                                <li><strong>Cloud Storage:</strong> Online storage accessed over the internet.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- Section 7: Location & Physical Form -->
+                            <section class="content-section">
+                                <h2 class="section-heading">
+                                    <span class="section-number">7</span>
+                                    Location & Physical Form
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover comparison-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-cog"></i> Component</th>
+                                                <th><i class="fas fa-map-marker-alt"></i> Location/Form</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Memory (RAM)</strong></td>
+                                                <td>Installed directly on the motherboard in DIMM slots (desktops/laptops).</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Storage</strong></td>
+                                                <td>Connected via SATA, M.2, or PCIe interfaces; can be internal or external.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Section 8: Impact on Performance -->
+                            <section class="content-section">
+                                <h2 class="section-heading">
+                                    <span class="section-number">8</span>
+                                    Impact on Performance
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover comparison-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-cog"></i> Component</th>
+                                                <th><i class="fas fa-chart-line"></i> Effect on System Performance</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Memory (RAM)</strong></td>
+                                                <td>More RAM allows smoother multitasking and better performance with large applications (e.g., video editing, gaming).</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Storage</strong></td>
+                                                <td>Faster storage (like SSDs) improves boot times, application load times, and file transfers.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Section 9: Example Scenario -->
+                            <section class="content-section">
+                                <h2 class="section-heading">
+                                    <span class="section-number">9</span>
+                                    Example Scenario
+                                </h2>
+                                
+                                <div class="example-card">
+                                    <h3 class="example-title">
+                                        <i class="fas fa-file-word"></i>
+                                        Working on a Microsoft Word document:
+                                    </h3>
+                                    <ol class="example-steps">
+                                        <li><i class="fas fa-save"></i> The document is stored on your hard drive (storage).</li>
+                                        <li><i class="fas fa-upload"></i> When you open it, the document is loaded into RAM (memory) so the CPU can quickly process changes.</li>
+                                        <li><i class="fas fa-download"></i> When you save it, the updated version is written back to storage.</li>
+                                    </ol>
+                                </div>
+                            </section>
+
+                            <!-- Summary Table -->
+                            <section class="content-section">
+                                <h2 class="section-heading">
+                                    <span class="section-number">10</span>
+                                    Summary Table
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover summary-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-list"></i> Feature</th>
+                                                <th><i class="fas fa-memory"></i> Memory (RAM)</th>
+                                                <th><i class="fas fa-hdd"></i> Storage</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Type</strong></td>
+                                                <td><span class="badge bg-info">Temporary</span></td>
+                                                <td><span class="badge bg-success">Permanent</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Volatility</strong></td>
+                                                <td><span class="badge bg-danger">Volatile</span></td>
+                                                <td><span class="badge bg-success">Non-volatile</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Speed</strong></td>
+                                                <td><span class="badge bg-success">Fast</span></td>
+                                                <td><span class="badge bg-warning">Slower</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Capacity</strong></td>
+                                                <td>Smaller (GBs)</td>
+                                                <td>Larger (GBs–TBs)</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Cost</strong></td>
+                                                <td>More expensive per GB</td>
+                                                <td>Cheaper per GB</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Purpose</strong></td>
+                                                <td>Running apps and processes</td>
+                                                <td>Storing OS, apps, files</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Examples</strong></td>
+                                                <td>DDR4 RAM</td>
+                                                <td>HDD, SSD, NVMe</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Conclusion -->
+                            <section class="content-section">
+                                <div class="conclusion-card">
+                                    <h2 class="conclusion-title">
+                                        <i class="fas fa-lightbulb"></i>
+                                        Conclusion
+                                    </h2>
+                                    <div class="conclusion-content">
+                                        <div class="analogy-item">
+                                            <i class="fas fa-desk"></i>
+                                            <strong>Memory (RAM)</strong> is like your <strong>desk space</strong> — where you keep things you're currently working on.
+                                        </div>
+                                        <div class="analogy-item">
+                                            <i class="fas fa-archive"></i>
+                                            <strong>Storage</strong> is like your <strong>filing cabinet</strong> — where all your files are kept safely even when not in use.
+                                        </div>
+                                        <p class="conclusion-text">
+                                            Understanding this distinction helps in making informed decisions when upgrading or purchasing a computer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Arabe -->
+                <div class="col-lg-6" id="arabic-section">
+                    <div class="content-card arabic-content">
+                        <div class="card-header">
+                            <h1 class="section-title arabic-title">
+                                <i class="fas fa-memory"></i>
+                                الفرق بين الذاكرة والتخزين في الحاسوب
+                            </h1>
+                        </div>
+                        
+                        <div class="card-body">
+                            <div class="intro-section">
+                                <p class="intro-text arabic-text">
+                                    <i class="fas fa-info-circle"></i>
+                                    غالبًا ما تُستخدم مصطلحات <mark>الذاكرة</mark> و<mark>التخزين</mark> بشكل متبادل عند الحديث عن أجهزة الكمبيوتر، لكنها تشير إلى مكونين مختلفين تمامًا ويؤديان وظائف منفصلة. إليك شرح مفصل للفرق بينهما:
+                                </p>
+                            </div>
+
+                            <!-- Section 1: التعريف -->
+                            <section class="content-section" >
+                                <h2 class="section-heading arabic-heading" >
+                                    <span class="section-number" >1</span>
+                                    التعريف
+                                </h2>
+                                
+                                <div class="definition-block">
+                                    <h3 class="subsection-title arabic-subtitle">
+                                        <i class="fas fa-check-circle text-success"></i>
+                                        الذاكرة (RAM – ذاكرة الوصول العشوائي)
+                                    </h3>
+                                    <ul class="feature-list arabic-list">
+                                        <li>الذاكرة وخاصةً RAM هي "مساحة عمل مؤقتة" لجهاز الكمبيوتر.</li>
+                                        <li>تُخزن البيانات التي يحتاج المعالج (CPU) إلى الوصول إليها بسرعة أثناء تنفيذ المهام.</li>
+                                        <li>عندما تفتح برامج أو ملفات، يتم تحميلها إلى الذاكرة (RAM) للوصول السريع.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="definition-block">
+                                    <h3 class="subsection-title arabic-subtitle">
+                                        <i class="fas fa-check-circle text-success"></i>
+                                        التخزين
+                                    </h3>
+                                    <ul class="feature-list arabic-list">
+                                        <li>يشير التخزين إلى الأجهزة المادية المستخدمة لحفظ البيانات على المدى الطويل، حتى بعد إيقاف تشغيل الحاسوب.</li>
+                                        <li>يشمل ذلك الأقراص الصلبة (HDD)، وأقراص SSD، وأجهزة الفلاش USB، والتخزين السحابي.</li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <!-- Section 2: الوظيفة -->
+                            <section class="content-section">
+                                <h2 class="section-heading arabic-heading">
+                                    <span class="section-number">2</span>
+                                    الوظيفة
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover comparison-table arabic-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-bullseye"></i> الوظيفة</th>
+                                                <th><i class="fas fa-cog"></i> المكون</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>تحتفظ بالبيانات التي يستخدمها المعالج حاليًا. تسمح بعمليات قراءة/كتابة سريعة لتسهيل المهام المتعددة بسلاسة.</td>
+                                                <td><strong>الذاكرة (RAM)</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td>يخزن نظام التشغيل والبرامج المثبتة والملفات الخاصة للمستخدم بشكل دائم. أبطأ من RAM، لكنه أكبر في السعة.</td>
+                                                <td><strong>التخزين</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Section 3: القابلية للفقدان -->
+                            <section class="content-section">
+                                <h2 class="section-heading arabic-heading">
+                                    <span class="section-number">3</span>
+                                    القابلية للفقدان
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover comparison-table arabic-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-bolt"></i> القابلية للفقدان</th>
+                                                <th><i class="fas fa-cog"></i> المكون</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span class="badge bg-danger">قابلة للفقدان:</span> تُفقد البيانات عند إيقاف تشغيل الجهاز</td>
+                                                <td><strong>الذاكرة (RAM)</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="badge bg-success">غير قابلة للفقدان:</span> تبقى البيانات حتى بعد إيقاف الجهاز</td>
+                                                <td><strong>التخزين</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Section 4: السرعة -->
+                            <section class="content-section">
+                                <h2 class="section-heading arabic-heading">
+                                    <span class="section-number">4</span>
+                                    السرعة
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover comparison-table arabic-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-tachometer-alt"></i> السرعة</th>
+                                                <th><i class="fas fa-cog"></i> المكون</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span class="badge bg-success">سريعة جدًا</span> — تقاس بالنانوثواني (ns). ضرورية للمعالجة الفورية.</td>
+                                                <td><strong>الذاكرة (RAM)</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="badge bg-warning">أبطأ</span> من الذاكرة — أقراص SSD أسرع من HDD، ولكن لا تزال أبطأ بكثير من RAM.</td>
+                                                <td><strong>التخزين</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Section 5: السعة -->
+                            <section class="content-section">
+                                <h2 class="section-heading arabic-heading">
+                                    <span class="section-number">5</span>
+                                    السعة
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover comparison-table arabic-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-database"></i> السعة النموذجية</th>
+                                                <th><i class="fas fa-cog"></i> المكون</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>تتراوح عادةً من 4 غيغابايت إلى 64 غيغابايت أو أكثر في الأنظمة الاستهلاكية.</td>
+                                                <td><strong>الذاكرة (RAM)</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td>تتراوح من 128 غيغابايت إلى عدة تيرابايتات (TB) حسب الجهاز.</td>
+                                                <td><strong>التخزين</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Section 6: الأنواع -->
+                            <section class="content-section">
+                                <h2 class="section-heading arabic-heading">
+                                    <span class="section-number">6</span>
+                                    الأنواع
+                                </h2>
+                                
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="type-card">
+                                            <h3 class="subsection-title arabic-subtitle">
+                                                <i class="fas fa-check-circle text-success"></i>
+                                                الذاكرة (RAM)
+                                            </h3>
+                                            <ul class="feature-list arabic-list">
+                                                <li><strong>DRAM:</strong> النوع الأكثر شيوعًا؛ تحتاج إلى تحديث مستمر.</li>
+                                                <li><strong>SRAM:</strong> أسرع، أغلى ثمنًا، وتُستخدم في الذاكرة المؤقتة.</li>
+                                                <li><strong>SDRAM:</strong> ذاكرة SDRAM المتزامنة</li>
+                                                <li><strong>DDR SDRAM:</strong> الإصدارات تشمل DDR3 و DDR4 و DDR5</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="type-card">
+                                            <h3 class="subsection-title arabic-subtitle">
+                                                <i class="fas fa-check-circle text-success"></i>
+                                                التخزين
+                                            </h3>
+                                            <ul class="feature-list arabic-list">
+                                                <li><strong>HDD:</strong> يستخدم أقراص دوارة والتخزين المغناطيسي.</li>
+                                                <li><strong>SSD:</strong> يستخدم ذاكرة فلاشية؛ أسرع وأكثر موثوقية.</li>
+                                                <li><strong>NVMe SSD:</strong> SSD عالي السرعة متصل عبر واجهة PCIe.</li>
+                                                <li><strong>التخزين الضوئي:</strong> CD/DVD/Blu-ray</li>
+                                                <li><strong>التخزين السحابي:</strong> تخزين عبر الإنترنت.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- Section 7: الموقع والشكل المادي -->
+                            <section class="content-section">
+                                <h2 class="section-heading arabic-heading">
+                                    <span class="section-number">7</span>
+                                    الموقع والشكل المادي
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover comparison-table arabic-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-map-marker-alt"></i> الموقع/الشكل</th>
+                                                <th><i class="fas fa-cog"></i> المكون</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>مثبتة مباشرة على اللوحة الأم في فتحات DIMM (في أجهزة سطح المكتب والحواسيب المحمولة).</td>
+                                                <td><strong>الذاكرة (RAM)</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td>متصلة عبر واجهات SATA أو M.2 أو PCIe؛ ويمكن أن تكون داخلية أو خارجية.</td>
+                                                <td><strong>التخزين</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Section 8: تأثيرها على الأداء -->
+                            <section class="content-section">
+                                <h2 class="section-heading arabic-heading">
+                                    <span class="section-number">8</span>
+                                    تأثيرها على الأداء
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover comparison-table arabic-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-chart-line"></i> تأثيره على أداء النظام</th>
+                                                <th><i class="fas fa-cog"></i> المكون</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>كلما زادت الذاكرة، زادت سلاسة العمل متعدد المهام والأداء مع البرامج الكبيرة (مثل مونتاج الفيديو والألعاب).</td>
+                                                <td><strong>الذاكرة (RAM)</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td>التخزين الأسرع (مثل SSD) يحسن وقت التشغيل، وتحميل التطبيقات، ونقل الملفات.</td>
+                                                <td><strong>التخزين</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Section 9: مثال عملي -->
+                            <section class="content-section">
+                                <h2 class="section-heading arabic-heading">
+                                    <span class="section-number">9</span>
+                                    مثال عملي
+                                </h2>
+                                
+                                <div class="example-card">
+                                    <h3 class="example-title arabic-subtitle">
+                                        <i class="fas fa-file-word"></i>
+                                        العمل على مستند في برنامج Microsoft Word:
+                                    </h3>
+                                    <ol class="example-steps arabic-list">
+                                        <li><i class="fas fa-save"></i> يتم حفظ المستند على القرص الصلب (التخزين).</li>
+                                        <li><i class="fas fa-upload"></i> عند فتحه، يتم تحميل المستند إلى الذاكرة (RAM) بحيث يمكن للمعالج التعامل مع التعديلات بسرعة.</li>
+                                        <li><i class="fas fa-download"></i> عند حفظه، يتم كتابة النسخة المحدثة مرة أخرى إلى التخزين.</li>
+                                    </ol>
+                                </div>
+                            </section>
+
+                            <!-- جدول ملخص -->
+                            <section class="content-section">
+                                <h2 class="section-heading arabic-heading">
+                                    <span class="section-number">10</span>
+                                    جدول ملخص
+                                </h2>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover summary-table arabic-table">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th><i class="fas fa-hdd"></i> التخزين</th>
+                                                <th><i class="fas fa-memory"></i> الذاكرة (RAM)</th>
+                                                <th><i class="fas fa-list"></i> الميزة</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span class="badge bg-success">دائم</span></td>
+                                                <td><span class="badge bg-info">مؤقت</span></td>
+                                                <td><strong>النوع</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="badge bg-success">غير قابل للفقدان</span></td>
+                                                <td><span class="badge bg-danger">قابل للفقدان</span></td>
+                                                <td><strong>القابلية للفقدان</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="badge bg-warning">أبطأ</span></td>
+                                                <td><span class="badge bg-success">سريع</span></td>
+                                                <td><strong>السرعة</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td>أكبر (من الغيغابايت إلى التيرابايت)</td>
+                                                <td>أقل (بالغيغابايت)</td>
+                                                <td><strong>السعة</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td>أقل لكل غيغابايت</td>
+                                                <td>أعلى لكل غيغابايت</td>
+                                                <td><strong>التكلفة</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td>تخزين نظام التشغيل والتطبيقات والملفات</td>
+                                                <td>تشغيل البرامج والمهام</td>
+                                                <td><strong>الاستخدام</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td>HDD، SSD، NVMe</td>
+                                                <td>ذاكرة DDR4</td>
+                                                <td><strong>أمثلة</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- الخلاصة -->
+                            <section class="content-section">
+                                <div class="conclusion-card">
+                                    <h2 class="conclusion-title arabic-heading">
+                                        <i class="fas fa-lightbulb"></i>
+                                        الخلاصة
+                                    </h2>
+                                    <div class="conclusion-content">
+                                        <div class="analogy-item arabic-text">
+                                            <i class="fas fa-desk"></i>
+                                            <strong>الذاكرة (RAM)</strong> تشبه <strong>مكتب العمل</strong> — حيث تضع الأشياء التي تعمل عليها حاليًا.
+                                        </div>
+                                        <div class="analogy-item arabic-text">
+                                            <i class="fas fa-archive"></i>
+                                            <strong>التخزين</strong> يشبه <strong>خزائن الملفات</strong> — حيث تُخزن جميع الملفات بأمان حتى عند عدم استخدامها.
+                                        </div>
+                                        <p class="conclusion-text arabic-text">
+                                            فهم هذه الاختلافات يساعدك على اتخاذ قرارات أفضل عند ترقية جهازك أو شراء حاسوب جديد.
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content">
+                        <p class="footer-text">
+                            <i class="fas fa-copyright"></i>
+                            Boumaza Laid | Univ Relizane © 2025-2026
+                        </p>
+                        <div class="footer-links">
+                            <a href="#english-section" class="footer-link">
+                                <i class="fas fa-arrow-up"></i>
+                                Back to Top
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SiIqPOFLKa" crossorigin="anonymous"></script>
+    
+    <!-- Custom JavaScript -->
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Add animation to cards on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.content-section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
 </html>
+
